@@ -1,0 +1,934 @@
+select.learningplan-assign-course + .select2.select2-container .selection .select2-selection.select2-selection--multiple{
+    width: 300px;
+}
+#page-local-learningplan-plan_view .course_image_comtainer img.learningplan_course_image{
+    width: 150px;
+    height: 150px;
+}
+a.launch{
+    float: right;
+    padding: 5px;
+    border: 1px solid #F75B5E;
+    color: #fff;
+    background-color: #F75B5E;
+    /*border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;*/
+}
+a.launch:hover{
+    color: #F75B5E;
+    background-color: #fff;
+}
+body#page-local-learningplan-plan_view div[role=main] .dataTables_wrapper .dataTables_filter{
+    margin-top: 0px;
+}
+body#page-local-learningplan-index table#all_learning_plans > tbody > tr > td{
+    border-left: 3px solid transparent;
+}
+body#page-local-learningplan-index table#all_learning_plans > tbody > tr > td:hover{
+    border-left: 3px solid #0072bc;
+}
+body#page-local-learningplan-index table#all_learning_plans > tbody > tr > td .learning_plan_view .learning_plan_info{
+    border-bottom: 1px dotted #ccc;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+body#page-local-learningplan-lpusers_enroll ul.button_ul{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px;
+}
+#page-local-learningplan-plan_view td.details-control {
+    background: url([[pix:mod_facetoface|plus]]) 24px center no-repeat !important;
+    cursor: pointer;
+}
+#page-local-learningplan-plan_view tr.request td.details-control {
+    background: url([[pix:mod_facetoface|minus]]) 24px center no-repeat !important;
+    cursor: pointer;
+}
+#page-local-learningplan-plan_view tr.shown td.details-control {
+    background: url([[pix:mod_facetoface|minus]]) 24px center no-repeat !important;
+}
+#page-local-learningplan-plan_view td.details-control1 {
+    background: url([[pix:mod_facetoface|plus]]) 24px center no-repeat !important;
+    cursor: pointer;
+}
+#page-local-learningplan-plan_view tr.shown1 td.details-control1 {
+    background: url([[pix:mod_facetoface|minus]]) 24px center no-repeat !important;
+}
+#page-local-learningplan-plan_view td.details-control2 {
+    background: url([[pix:mod_facetoface|plus]]) 24px center no-repeat !important;
+    cursor: pointer;
+}
+#page-local-learningplan-plan_view tr.shown2 td.details-control2 {
+    background: url([[pix:mod_facetoface|minus]]) 24px center no-repeat !important;
+}
+#page-local-learningplan-approvals-ilt_request.dataTables_wrapper.no-footer
+{
+      background-color: #bcbcbf !important;
+}
+#page-local-learningplan-approvals-ilt_request div#test01 {
+    width: 300px !important;
+    height: 160px !important;
+    background-color: rgba(21, 18, 18, 0.57) !important;
+}
+#page-local-learningplan-plan_view div#test01{
+    width: 96% !important;
+    padding: 0px 2% !important;
+    height: inherit !important;
+}
+#page-local-learningplan-plan_view .ui-dialog .ui-widget-header{
+    background: transparent;
+    border: none;
+    float: left;
+    width: 91%;
+}
+#page-local-learningplan-approvals-ilt_request .ui-dialog .ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix.ui-draggable-handle{
+    float: left;
+    width: 100%;
+}
+#page-local-learningplan-approvals-ilt_request button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only.ui-dialog-titlebar-close{
+    right: 42px;
+}
+body.path-local-learningplan .dataTables_length{
+    display: none;
+}
+body#page-mod-facetoface-approvals-ilt_request table#studentexam_details_1 th{
+     color: #336799;
+}
+span.info_label{
+    min-width: 140px;
+    float: left;
+    width: 35%;
+}
+body#page-local-learningplan-plan_view span.info_label{
+    min-width: inherit;
+    width: initial;
+}
+span.info_colon {
+    margin-right: 10px;
+    float: right;
+}
+span.info_value{
+    color: #333;
+    float: left;
+    /*width: 65%;*/
+}
+body.path-local-learningplan ul.nav.nav-tabs li .badge{
+    background-color: #f75b5e;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    margin-left: 2px;
+    padding: 4px 1px;
+    width: 18px;
+    height: 12px;
+    text-shadow: none;
+}
+body.path-local-learningplan ul.nav.nav-tabs li>a{
+    line-height: 27px;
+    /*padding: 5px 10px;*/
+    color: #fff;
+}
+
+/*tabs css*/
+ul.nav.nav-tabs li{
+    display: inline;
+    /*margin: 2px 0px;*/
+    /*border-bottom: 2px solid #0072bc;*/
+    float: left;
+    line-height: 30px;
+    background-color: #03a9f4;
+    /*border-radius: 0px 35px 0px 0px;
+    -webkit-border-radius: 0px 35px 0px 0px;
+    -moz-border-radius: 0px 35px 0px 0px;*/
+    width:18.33%;
+    text-align: center;
+    min-height: 49px;
+    color: #fff;
+    
+}
+ul.nav.nav-tabs li.active{
+    /*border-bottom: 2px solid #f75b5e;*/
+    /*border-right: 1px dotted #ccc;*/
+    /*border-left: 1px dotted #ccc;*/
+    background-color: #58cbff;
+    /*border-radius: 13px 0px 0px;*/
+}
+ul.nav.nav-tabs li>a{
+    line-height: 20px;
+    border: 1px solid transparent;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    padding: 10px 10px;
+    color: #333;
+    text-align: center;
+}
+ul.nav.nav-tabs li.active>a{
+    background-color: transparent;
+    cursor: default;
+    color: #fff;
+}
+ul.nav.nav-tabs li>a:hover{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+ul.nav.nav-tabs li.active>a:focus{
+    border: 1px solid transparent;
+}
+#page-local-learningplan-plan_view table.flexible th, .generaltable th, table.flexible td, .generaltable td{
+   border: none !important;
+}
+#page-local-learningplan-plan_view div .course_complete_info {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    overflow: hidden;
+}
+#page-local-learningplan-plan_view select{
+    margin-top: 5px;
+}
+body#page-local-learningplan-plan_view a.enrol_to_plan:hover{
+    color: #fff;
+}
+body#page-local-learningplan-plan_view a.enrol_to_plan{
+    float: right;
+    margin-top: -45px;
+    position: absolute;
+    left: 65%;
+    color: #fff;
+    font-size: 18px;
+}
+body#page-local-learningplan-plan_view a.request_for_approve{
+    left: 61%;
+    float: right;
+    margin-top: -45px;
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+}
+body#page-local-learningplan-plan_view a.actions{
+    float: right;
+    margin-top: -45px;
+    position: absolute;
+    left: 68%;
+    color: #fff;
+    font-size: 18px;
+}
+body#page-local-learningplan-plan_view div[role="main"] {
+    position: relative;
+}
+body#page-local-learningplan-plan_view a.already_enrolled_plan{
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    color: #fff;
+    font-size: 18px;
+}
+body#page-local-learningplan-plan_view .nav-tabs>li{
+    margin-bottom:unset !important;
+    /*border-radius: 8px 0px 0px !important;*/
+}
+#page-local-learningplan-plan_view .course_disabled{
+    pointer-events: none;
+    opacity: 0.2;
+    cursor: default;
+}
+table#learning_plan_courses tbody tr td h4.course_sort_status {
+    text-align: right;
+}
+/*#page-local-learningplan-plan_view a.pull-right.nourl{
+   float: right;
+    margin-top: -45px;
+    position: absolute;
+    left: 60%;
+    color: #fff;
+    font-size: 18px;
+}*/
+#page-local-learningplan-plan_view .a.pull-right.enrol_to_plan.nourl.wait{
+    cursor: wait;
+}
+/*code added by Raghuvaran Reg: learningplan plan_view page bulk upload on 19-MAR-2017*/
+body#page-local-learningplan-plan_view div#bulk_upload > form.form_class {
+    min-width: 700px;
+    overflow-x: auto;
+}
+body#page-local-learningplan-plan_view div#bulk_upload {
+    width: 100%;
+    float: left;
+}
+body#page-local-learningplan-lpusers_enroll select[multiple] {
+    /*width: 100% !important;*/
+}
+#page-local-learningplan-lpusers_enroll ul.button_ul:nth-child(even) {
+    width: 16%;
+    margin: auto 1.4%;
+    text-align: center;
+}
+#page-local-learningplan-lpusers_enroll ul.button_ul:nth-child(even) li>input[type="submit"] {
+    width: 110px !important;
+    margin: 5px 0px;
+}
+#page-local-learningplan-lpusers_enroll .fitem_fselect {
+    width: 38%;
+    float: left;
+    margin-left: 24px;
+    padding-top: 13px;
+}
+
+body#page-local-learningplan-lpusers_enroll #department_job_desigantion-filter .mform .fitem div.fitemtitle {
+    text-align: left;
+}
+
+body#page-local-learningplan-lpusers_enroll #department_job_desigantion-filter .mform .fitem .felement {
+    margin-left: 0px;
+}
+
+#page-local-learningplan-lpusers_enroll .select2 {
+    width: 83% !important;
+}
+/*code ends here*/
+@media (min-width: 2090px){
+    body#page-local-learningplan-plan_view a.enrol_to_plan{
+        left: 62%;
+    }
+}
+@media (max-width: 1024px) and (min-width: 981px){
+    body#page-local-learningplan-plan_view a.enrol_to_plan{
+        left: 63%;
+    }
+    body#page-local-learningplan-plan_view a.request_for_approve{
+        left: 63%;
+    }
+    body#page-local-learningplan-plan_view a.actions{
+        left: 63%;
+    }
+}
+@media (max-width: 980px){
+    body#page-local-learningplan-plan_view a.enrol_to_plan{
+        left: 59%;
+    }
+    body#page-local-learningplan-plan_view a.request_for_approve{
+        left: 59%;
+    }
+    body#page-local-learningplan-plan_view a.actions{
+        left: 59%;
+    }
+}
+@media (max-width: 979px) and (min-width: 769px){
+    body#page-local-learningplan-plan_view a.enrol_to_plan{
+        left: 57%;
+    }
+    body#page-local-learningplan-plan_view a.request_for_approve{
+        left: 57%;
+    }
+    body#page-local-learningplan-plan_view a.actions{
+        left: 57%;
+    }
+}
+@media (max-width: 768px){
+    body#page-local-learningplan-plan_view a.enrol_to_plan{
+        left: 82%;
+    }
+    body#page-local-learningplan-plan_view a.request_for_approve{
+        left: 82%;
+    }
+    body#page-local-learningplan-plan_view a.actions{
+        left: 82%;
+    }
+    body#page-local-learningplan-plan_view .plan_detail {
+        padding: 10px 2%;
+        width: 96% !important;
+    }
+}
+@media (max-width: 600px){
+    body#page-local-learningplan-plan_view a.enrol_to_plan{
+        left: 79%;
+    }
+    body#page-local-learningplan-plan_view a.request_for_approve{
+        left: 79%;
+    }
+    body#page-local-learningplan-plan_view a.actions{
+        left: 79%;
+    }
+}
+@media (max-width: 500px){
+    body#page-local-learningplan-plan_view a.enrol_to_plan{
+        left: 75%;
+    }
+    body#page-local-learningplan-plan_view a.request_for_approve{
+        left: 75%;
+    }
+    body#page-local-learningplan-plan_view a.actions{
+        left: 75%;
+    }
+}
+@media (max-width: 380px){
+    body#page-local-learningplan-plan_view a.enrol_to_plan{
+        left: 66%;
+    }
+    body#page-local-learningplan-plan_view a.request_for_approve{
+        left: 66%;
+    }
+    body#page-local-learningplan-plan_view a.actions{
+        left: 66%;
+    }
+}
+body.path-local-learningplan .view_more_toggle_content{
+    position: absolute;
+    background-color: #c6e0f1;
+    padding: 5px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    color: #333;
+    box-shadow: 0px 0px 5px #333;
+    max-width: 300px;
+    z-index: 2;
+    max-height: 250px;
+    overflow: auto;
+}
+body.path-local-learningplan .learning_plan_detail_info .view_more_toggle_content{
+    right: 0px;
+}
+body.path-local-learningplan .view_more_toggle_content.toggle_open span.view_more_close{
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    padding: 2px 3px;
+    background-color: #fff;
+    line-height: 11px;
+    border: 1px solid #999;
+}
+body.path-local-learningplan .view_more_toggle_content.toggle_open span.view_more_content{
+    margin-top: 15px;
+    float: left;
+    word-break: break-all;
+}
+body.path-local-learningplan .view_more_toggle > span.view_less,
+body.path-local-learningplan .view_more_toggle > span.view_more{
+    cursor: pointer;
+}
+body#page-local-learningplan-plan_view ul.nav.nav-tabs{
+    float: left;
+    width: 100%;
+    clear: both;
+    margin-bottom: 0px;
+    /*display: flex;*/
+    background-color: #03a9f4;
+    border-radius: 8px 8px 0px !important;    
+}
+body#page-local-learningplan-plan_view .tab-content{
+    background-color: #fff;
+    float: left;
+    width: 96%;
+    clear: both;
+    padding: 0px 2%;
+}
+/*body#page-local-learningplan-plan_view table#learning_plan_courses_admin_view > tbody >tr:nth-child(even) > td .lp_course_sortorder{
+    border-left: 3px solid #0072bc;
+}
+body#page-local-learningplan-plan_view table#learning_plan_courses_admin_view > tbody >tr:nth-child(odd) > td .lp_course_sortorder{
+    border-left: 3px solid #f75b5e;
+}*/
+body#page-local-learningplan-managelearningplan table#all_learning_plans td > .learning_plan_view{
+    width: 99%;
+    padding-left: 1%;
+    float: left;
+}
+body#page-local-learningplan-managelearningplan table#all_learning_plans > tbody > tr:nth-child(even) > td > .learning_plan_view{
+    border-left: 3px solid #0072bc;
+}
+body#page-local-learningplan-managelearningplan table#all_learning_plans > tbody > tr:nth-child(odd) > td > .learning_plan_view{
+    border-left: 3px solid #f75b5e;
+}
+body#page-local-learningplan-index table#all_learning_plans td > .learning_plan_view{
+    width: 99%;
+    padding-left: 1%;
+    float: left;
+}
+body#page-local-learningplan-index table#all_learning_plans > tbody > tr:nth-child(even) > td > .learning_plan_view{
+    border-left: 3px solid #0072bc;
+}
+body#page-local-learningplan-index table#all_learning_plans > tbody > tr:nth-child(odd) > td > .learning_plan_view{
+    border-left: 3px solid #f75b5e;
+}
+body#page-local-learningplan-managelearningplan #page-content .collapsibleregion.collapsed{
+    height: 10px !important;
+}
+table#all_learning_plans > thead th,
+body#page-local-learningplan-plan_view table#learning_plan_courses > thead th{
+    display: none;
+}
+.detail_short_underline{
+    float: left;
+    width: 25px;
+    background-color: #99a5ad;
+    height: 3px;
+}
+/*Old switch*/
+#page-local-learningplan-plan_view .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+#page-local-learningplan-plan_view .switch input {display:none;}
+
+#page-local-learningplan-plan_view .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#page-local-learningplan-plan_view .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#page-local-learningplan-plan_view input:checked + .slider {
+  background-color: #2196F3;
+}
+
+#page-local-learningplan-plan_view input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+#page-local-learningplan-plan_view input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+#page-local-learningplan-plan_view .slider.round {
+  border-radius: 34px;
+}
+
+#page-local-learningplan-plan_view .slider.round:before {
+  border-radius: 50%;
+}
+/*end */
+#page-local-learningplan-plan_view .switch {
+	position: relative;
+	display: block;
+	vertical-align: top;
+	width: 52px;
+	height: 23px;
+	padding: 3px;
+	margin: 0 10px 10px 0;
+	background: linear-gradient(to bottom, #eeeeee, #FFFFFF 25px);
+	background-image: -webkit-linear-gradient(top, #eeeeee, #FFFFFF 25px);
+	border-radius: 18px;
+	/*box-shadow: inset 0 -1px white, inset 0 1px 1px rgba(0, 0, 0, 0.05);*/
+	cursor: pointer;
+}
+#page-local-learningplan-plan_view .switch-input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+#page-local-learningplan-plan_view .switch-label {
+	position: relative;
+	display: block;
+	height: inherit;
+	font-size: 10px;
+	text-transform: uppercase;
+	background: #0072bc;
+	border-radius: inherit;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.15);
+}
+#page-local-learningplan-plan_view .switch-label:before, .switch-label:after {
+	position: absolute;
+	top: 50%;
+	margin-top: -.5em;
+	line-height: 1;
+	-webkit-transition: inherit;
+	-moz-transition: inherit;
+	-o-transition: inherit;
+	transition: inherit;
+}
+#page-local-learningplan-plan_view .switch-label:before {
+	content: attr(data-off);
+	right: 11px;
+	color: #aaaaaa;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
+#page-local-learningplan-plan_view .switch-label:after {
+	content: attr(data-on);
+	left: 5px;
+	color: #FFFFFF;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+	opacity: 0;
+}
+#page-local-learningplan-plan_view .switch-input:checked ~ .switch-label {
+	background: #f75b5e;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15), inset 0 0 3px rgba(0, 0, 0, 0.2);
+    font-size: 10px;
+}
+.switch-input:checked ~ .switch-label:before {
+	opacity: 0;
+}
+#page-local-learningplan-plan_view .switch-input:checked ~ .switch-label:after {
+	opacity: 1;
+}
+#page-local-learningplan-plan_view .switch-handle {
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	width: 20px;
+	height: 20px;
+	background: linear-gradient(to bottom, #FFFFFF 40%, #f0f0f0);
+	background-image: -webkit-linear-gradient(top, #FFFFFF 40%, #f0f0f0);
+	border-radius: 100%;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+#page-local-learningplan-plan_view .switch-handle:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -6px 0 0 -6px;
+	width: 12px;
+	height: 12px;
+	background: linear-gradient(to bottom, #eeeeee, #FFFFFF);
+	background-image: -webkit-linear-gradient(top, #eeeeee, #FFFFFF);
+	border-radius: 6px;
+	box-shadow: inset 0 1px rgba(0, 0, 0, 0.02);
+}
+#page-local-learningplan-plan_view .switch-input:checked ~ .switch-handle {
+	left: 34px;
+	box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+ 
+/* Transition
+========================== */
+#page-local-learningplan-plan_view .switch-label, .switch-handle {
+	transition: All 0.3s ease;
+	-webkit-transition: All 0.3s ease;
+	-moz-transition: All 0.3s ease;
+	-o-transition: All 0.3s ease;
+}
+#fitem_id_bands{
+    display: inherit !important;
+}
+#fitem_id_bands:focus{
+    outline: none;
+}
+#fitem_id_bands + .select2.select2-container .select2-selection[aria-owns="select2-fitem_id_bands-results"]{
+    display: none;
+}
+.course_sort_status{
+    position: absolute;
+    right: -32px;
+    top: 2px;
+    transform: rotate(45deg);
+    width: 110px;
+    height: 25px;
+}
+span.mandatory-course {
+    background-color: #f75b5e;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px
+}
+span.optional-course{
+    background-color: #0072bc;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px
+}
+.course_data_container .course_activity_details.text-right {
+    margin-top: 20px;
+}
+#page-local-learningplan-index div#page-navbar{
+     display: block;
+}
+/*css added by Rizwana on 1 Mar 2017 ---starts*/
+body#page-local-learningplan-managelearningplan div[role="main"],
+body#page-local-learningplan-index div[role="main"] {
+    position: relative;
+}
+#learningplan-form_caption {
+    float: right;
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    right: 11px;
+    font-weight: normal;
+    top: 27px;
+}
+div#learningplan-form_caption>a {
+    color: #fff;
+    margin-top: -20px;
+}
+div#learningplan-form_caption img{
+    display: none;
+}
+/*css added by Rizwana on 1 Mar 2017 ---ends*/
+.main_content.learningplan_view .row.no-margin.no-padding {
+    margin: 0px;
+}
+.main_content.learningplan_view .plan-body {
+    background-color: #FFF;
+    padding: 15px 15px 0 15px;
+}
+.main_content.learningplan_view .plan-body-content {
+    background-color: #f6f6f6;
+    padding: 15px;
+    border-radius: 8px !important;
+    overflow: hidden;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.main_content.learningplan_view .plan-content {
+    margin-top: 15px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 8px !important;
+    overflow: hidden;
+}
+.main_content.learningplan_view .divslide {
+    margin-bottom: 20px;
+}
+.main_content.learningplan_view .plan-header {
+    background-color: #03a9f4;
+    padding: 15px;
+}
+.main_content.learningplan_view .label-header {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+}
+.main_content.learningplan_view .btn.enroll{
+    font-size: 13px;
+    padding: 8px;
+    border-radius: 5px !important;
+    color: #555658;
+    background-color: #fff !important;
+    border: 1px solid transparent;
+}
+.main_content.learningplan_view .plan-body-content .col-md-4 label.col-name{
+    width: 140px;
+}
+.main_content.learningplan_view .plan-body-content .col-md-4 label {
+    font-weight: 400;
+}
+.main_content.learningplan_view span.mandatory {
+    font-size: 11px;
+    background-color: #ff7474;
+    border-radius: 8px !important;
+    padding: 2px 10px;
+    color: #fff;
+    float: right;
+    /*margin-right: 10px;*/
+    line-height: 22px;
+}
+body.path-local-learningplan .course-body .coursepage-name{
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+.main_content.learningplan_view span.optional {
+    font-size: 11px;
+    background-color: #95d898;
+    border-radius: 8px !important;
+    padding: 2px 10px;
+    color: #fff;
+    float: right;
+    /*margin-right: 10px;*/
+    line-height: 22px;
+}
+.main_content.learningplan_view .btn.btn-sm.btn-info.btn-enrol {
+    font-size: 12px !important;
+    padding: 5px 17px;
+    border-radius: 5px !important;
+    box-shadow: none !important;
+    outline: 0 !important;
+    color: #fff;
+    background-color: #5bc0de !important;
+    border-color: #46b8da !important;
+    text-shadow: none;
+}
+.main_content.learningplan_view .lp-head {
+    margin-top: -10px;
+    font-weight: 400;
+}
+.main_content.learningplan_view .content-img {
+    margin-top: 0px;
+    border-radius: 0px !important;
+}
+.main_content.learningplan_view span.optional {
+    font-size: 11px;
+    background-color: #95d898;
+    border-radius: 8px !important;
+    padding: 2px 10px;
+    color: #fff;
+}
+/*css added by Bunesh on 08 Apr 2017*/
+@media (max-width: 979px) and (min-width: 768px){
+    #page-local-learningplan-plan_view span.info_label{
+        width: 100%;
+    }
+}
+@media (max-width: 1030px) and (min-width: 768px){
+    #page-local-learningplan-managelearningplan .target_audience_container > .span4{
+        width:100%;
+    }
+}
+body#page-local-learningplan-view .divslide .course-body{
+    background-color: #fff;
+    min-height: 330px;
+    overflow: hidden;
+}
+body#page-local-learningplan-view .course-author{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+body#page-local-learningplan-view .pull-right.row-fluid .btm-btn{
+    position: absolute;
+    margin-bottom: 10px;
+    bottom: 0px;
+    right: 16px;
+    /*width: 87%;*/
+}
+/*code added by Raghuvaran reg : learning plan view page course body height*/
+body#page-local-learningplan-view .divslide .course-body .course-author .row {
+    margin: 0px;
+}
+body#page-local-learningplan-view .divslide .course-body .course-author .author-name {
+    margin-bottom: 5px;
+    padding: 0px 2% 0px 0px !important;
+    width: 100%;
+}
+body#page-local-learningplan-view .divslide .course-body .course-img,
+body#page-local-learningplan-view .divslide .course-body .course-img>img {
+    height: 132px;
+}
+body#page-local-learningplan-view .coursepage-name > a{
+    float: left;
+    max-height: 50px;
+    overflow: hidden;
+}
+/*code added by Raghuvaran on 18-MAR-2017*/
+#page-local-learningplan-plan_view div .course_complete_info .course_image_comtainer {
+    min-width: 165px;
+}
+body#page-local-learningplan-plan_view aside#block-region-side-post {
+    margin-top: 10px;
+}
+/*code ends here*/
+@media (min-width:992px) and (max-width:1200px) {
+    body#page-local-learningplan-view .divslide .course-body{
+        min-height: 330px;
+    }
+}
+@media (min-width:992px) and (max-width:1100px) {
+    body#page-local-learningplan-view #page_container_wrapper.toggled .divslide {
+        width: 50%;
+    }
+}
+/*#page-local-learningplan-index .select2-search__field{*/
+      /*width: 100% !important;*/
+/*}*/
+#page-local-learningplan-index .select2.select2-container.select2-container--default{
+      width: 367px !important; 
+}
+body.path-local-learningplan select[multiple]{
+    min-width: 220px;
+}
+
+#page-local-learningplan-managelearningplan .select2-search__field{
+      width: 100% !important;
+      min-width: 200px;
+}
+#page-local-learningplan-managelearningplan .select2.select2-container.select2-container--default{
+      width: 367px !important; 
+}
+body#page-local-learningplan-plan_view .plan_detail .span4 span.info_label {
+    min-width: 140px;
+}
+@media(max-width: 480px){
+    .main_content.learningplan_view .divslide{
+        padding: 0px 0px;
+    }
+}
+body#page-local-learningplan-plan_view .assign_courses_container,
+body#page-local-learningplan-plan_view .assign_users_container {
+    margin: 20px 0px;
+}
+body#page-local-learningplan-plan_view .assign_courses_container .felement.fselect .select2.select2-container,
+body#page-local-learningplan-plan_view .assign_users_container .felement .select2.select2-container{
+    max-width: 450px;
+    min-width: 250px;
+}
+body#page-local-learningplan-plan_view a.assigning{
+    margin-right: 10px;
+    padding: 7px 15px 7px 0px;
+    text-decoration: underline;
+    background: url([[pix:t/collapsed]]) no-repeat right center;
+}
+body#page-local-learningplan-plan_view a.assigning.form_shown{
+    background: url([[pix:t/expanded]]) no-repeat right center;
+}
+body#page-local-learningplan-plan_view .nav-tabs>li:first-child {
+    border-radius: 8px 0px 0px !important;
+}
+/*1/6/2017*/
+body#page-local-learningplan-lpusers_enroll .content-classimg {
+    border: 1px solid #f6f6f6;
+    border-radius: 7px!important;
+    width: 100%;
+    margin-top: 25px;
+    max-width: 400px;
+    max-height: 400px;
+}
+body#page-local-learningplan-lpusers_enroll .usersdesc {
+    height: 225px;
+    overflow: hidden;
+    font-size: 15px !important;
+    font-weight: 400;
+    word-break: break-word;
+}
+body#page-local-learningplan-lpusers_enroll .usersdesc.show_more_description {
+    height: inherit;
+    overflow: auto;
+}
+body#page-local-learningplan-view .divslide .course_disabled{
+    pointer-events: none;
+    opacity: 0.2;
+    cursor: default;
+}
+/*body#page-local-learningplan-view .divslide .course-body{
+    background-color: #fff;
+    min-height: 330px;
+    overflow: hidden;
+}*/
+ body#page-local-learningplan-index .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    min-height: 40px;
+    max-height: 85px;
+    overflow-y: auto;
+}
+body#page-local-learningplan-managelearningplan .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    min-height: 40px;
+    max-height: 85px;
+    overflow-y: auto;
+}
