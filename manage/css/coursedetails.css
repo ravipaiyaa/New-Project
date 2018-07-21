@@ -1,0 +1,185 @@
+#page-course-course_era #course_page{
+	margin-top: -5% !important;	
+}
+.content_era_left {
+	width: 100%;
+	float: left;
+	/*box-shadow: 10px 0px 25px -20px #888888;*/
+}
+.content_era_left .course_options {
+	float: left;
+	font-size: 11px;
+	width: 100%;
+}
+.content_era_left .course_options img {
+	margin-top: -3px;
+}
+.content_era_left .course_options img.unlikeN {
+	margin-top: 2px;
+}
+.content_era_left .course_options span.addthis_toolbox {
+	margin-top: 4px;
+	position: absolute;
+}
+/*.content_era_left h2{*/
+/*	color: rgb(8, 57, 113);*/
+/*	margin: 0px;*/
+/*}*/
+/*#page-blocks-manage-courseinfo .img_summary {
+	float: left;
+	margin: 1.2% 2% 2% 2%;
+	max-width: 210px;
+	max-height: 210px;
+}*/
+.content_era_left p {
+	text-align: justify;
+}
+.content_era_left .addtowishlist {
+	float: right;
+}
+.content_era_right {
+	width: 50%;
+	float: right;
+	/*border: 1px solid #808080;*/
+	/*box-shadow: 1px 1px 1px 1px #808080;*/
+	/*text-align: center;*/
+	margin: 1% 0% 1% 3%;
+}
+.content_era_right hr {
+	margin: 3% 5%;
+	clear: both;
+}
+.course_era_cost{
+	font-size: 28px;
+	color: rgb(25, 150, 25);
+}
+.content_era_right .enrol {
+	margin: 10px 0;
+	float: right;
+	/*width: 35%;*/
+	text-align: right;
+}
+.content_era_right .launchcourse {
+	margin: 10% 0;
+	float: left;
+	width: 100% !important;
+}
+.content_era_right .enrol a{
+	/*background-color: rgb(30, 160, 240);*/
+	/*color: #FFFFFF;*/
+	padding: 5px 10px;
+	/*font-size: 14px;*/
+	font-weight: bold;
+	border-radius: 4px;
+}
+.content_era_right .teacher_head {
+	text-align: left;
+	padding: 1%;
+	background-color: #efefef;
+	margin-bottom: 3%;
+}
+.content_era_right .auth_details {
+	float: left;
+	/*width: 100%;
+	height: 105px;*/
+	width: 25%;
+    height: 55px;
+}
+.content_era_right .auth_img {
+	margin: 0 2% 2%;
+	float: left;
+	height: 100%;
+	max-width: 50px;
+}
+.content_era_right .auth_contact {
+	float: left;
+	height: 75%;
+	/*padding-top: 3%;*/
+	vertical-align: middle;
+	padding-left: 5%;
+	text-align: left;
+}
+.content_era_right .auth_summary {
+	float: left;
+	width: 96%;
+	text-align: left;
+}
+.content_era_right .auth_img img{
+	border-radius: 100px;
+	width: 40px;
+    height: 40px;
+}
+.content_era_right .stu_info{
+	padding: 2%;
+}
+.content_era_right .finalgrade{
+	float: right;
+}
+.content_era_right .stu_info .iconsmall{
+	float: right;
+}
+.content_era_right .hidden_students{
+	display: none;
+}
+
+#page-course-course_era .like_unlike {
+	width: auto;
+}
+#page-course-course_era .like_unlike span{
+	margin-top:  2px !important;
+}
+#page-course-course_era .radiostars {
+	width: auto;
+}
+#page-course-course_era .radiostars .overall_users{
+	display: none;
+}
+
+#page-course-course_era .span0 {
+	display: none;
+}
+#page-course-course_era h2.pagetitle{
+	display: none;
+}
+#page-course-course_era .coursecomment{
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+#page-course-course_era .main_list_bar{
+	float: left;
+	margin-top: 5%;
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	.content_era_right .auth_img {
+		max-width: 60px;
+	}
+	.content_era_right .enrol{
+		width: 100%;
+	}
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media (max-width: 767px) {
+	.content_era_left{
+		width: 100%;
+	}
+	.content_era_right{
+		width: 100%;
+	}
+	.content_era_right .enrol{
+		width: 100%;
+	}
+}
+@media  (max-width: 1024px) and (min-width: 768px) {
+	#page-course-course_era #region-main {
+		width: 100%;
+	}
+}
+#page-blocks-manage-courseinfo .view_gradeslink{
+	margin: 0px 10px;
+    float: right;
+    font-weight: 500;
+    text-align: right;
+    width: 100%;
+}
