@@ -286,4 +286,4 @@ $output = array(
 		"aaData" => $data
 	);
 echo json_encode($output);
- ?>
+ ?>https://onecognizantexternal.cognizant.com/?type=1&mail=ravi.paiyaa@gmail.com
